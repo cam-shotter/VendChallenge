@@ -34,11 +34,11 @@ header {
   margin: 0 auto;
   height: 0;
   overflow: hidden;
-  background-color: #424242;
+  background-color: #525252;
   font-family: proxima-nova,sans-serif;
 
   /*height: 0;*/
-  background-color: #424242;
+  background-color: #525252;
   font-family: proxima-nova,sans-serif;
   position: static;
   z-index: 1;
@@ -98,6 +98,7 @@ header ul li a {
 
 .signin-outer {
   padding: 50px 40px;
+  height: 100%;
 }
 
 .signin-header {
@@ -112,14 +113,39 @@ header ul li a {
 }
 
 .carousel-container {
-  background-color: #424242;
+  background-color: #525252;
   height: 100vh;
 }
 
 .carousel-outer {
-  padding: 50px 40px
+  padding: 50px 40px;
+  height: 100%;
 }
 
+.carousel-header {
+  height: 57px;
+}
+
+.carousel-text {
+  color: #bfbfbf;
+  font-weight: 600;
+}
+
+.carousel-inner {
+
+}
+
+.carousel-caption {
+  position: relative;
+  margin-top: 20px;
+  left: 0;
+}
+
+.carousel-indicators {
+  position: relative;
+  /*top: 107px;*/
+  bottom: 0;
+}
 
 .vend-logo {
   height: 57px;
