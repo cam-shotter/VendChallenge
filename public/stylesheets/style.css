@@ -106,10 +106,27 @@ header ul li a {
   align-items: center;
 }
 
-.signin-text {
+.signin-header-text {
   font-size: 250%;
   font-weight: 300;
   padding-left: 14px;
+}
+
+.signin-body {
+  padding-top: 40px;
+}
+
+.signin-body-text {
+  float: right;
+  opacity: 0.6;
+}
+
+#form-submit-button {
+  background-color: #41AF4B;
+  color: #FFFFFF;
+  width: 100%;
+  /*position: relative;
+  bottom: 0;*/
 }
 
 .carousel-container {
@@ -166,6 +183,11 @@ header ul li a {
     width: 40%;
     height: 400px;
     float: right;
+  }
+
+  #form-submit-button {
+    float: right;
+    width: 40%;
   }
 
   .carousel-container {
