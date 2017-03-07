@@ -31,8 +31,8 @@ ul {
 }
 
 header {
-  margin: 0 auto;
   height: 0;
+  margin: 0 auto;
   overflow: hidden;
   background-color: #525252;
   font-family: proxima-nova,sans-serif;
@@ -51,34 +51,33 @@ header ul:first-child {
 }
 
 header ul li {
-  margin: 0 10px;
   float: left;
-  line-height: 30px;
   height: 30px;
+  margin: 0 10px;
+  line-height: 30px;
 }
 
 header ul li.icons {
-  margin: 0 10px 0 16px;
-  width: auto;
   position: relative;
+  width: auto;
+  margin: 0 10px 0 16px;
 }
 
 header ul li.icons a {
   display: inline-block;
-  /*margin-top: 2px;*/
-  overflow: visible;
   height: 30px;
-  vertical-align: top;
-  padding: 0;
   width: 14px;
+  padding: 0;
+  overflow: visible;
+  vertical-align: top;
 }
 
 header ul li a {
-  padding: 0 10px;
   display: inline-block;
-  color: #dfdfdf;
   width: 101%;
   height: 100%;
+  padding: 0 10px;
+  color: #dfdfdf;
 }
 
 .signin-container {
@@ -95,14 +94,14 @@ header ul li a {
 .signin-header {
   display: flex;
   align-items: center;
-  padding-left: 5%;
   width: auto;
+  padding-left: 5%;
 }
 
 #signin-header-text {
+  padding-left: 2%;
   font-size: 250%;
   font-weight: 400;
-  padding-left: 2%;
 }
 
 .signin-body {
@@ -117,15 +116,15 @@ header ul li a {
 #signin-body-text {
   display: none;
   float: right;
-  opacity: 0.6;
   color: inherit;
+  opacity: 0.6;
 }
 
 #signin-body-text-alt {
   display: block;
   float: right;
-  opacity: 0.6;
   color: inherit;
+  opacity: 0.6;
 }
 
 form {
@@ -139,22 +138,22 @@ form {
 
 #email-or-username {
   margin-top: 2vh;
-  border-radius: 0;
   padding: 25px 12px;
+  border-radius: 0;
   opacity: 0.7;
 }
 
 #password {
   margin-top: 10px;
-  border-radius: 0;
   padding: 25px 12px;
+  border-radius: 0;
   opacity: 0.7;
 }
 
 #form-submit-button {
   float: right;
-  width: 100%;
   height: 44px;
+  width: 100%;
   margin-top: 20px;
   background-color: #41AF4B;
   color: #FFFFFF;
@@ -164,11 +163,11 @@ form {
 #signin-forgotten-text {
   display: flex;
   position: relative;
-  width: 100%;
-  font-weight: 500;
   justify-content: center;
   top: 20px;
+  width: 100%;
   padding-bottom: 12px;
+  font-weight: 500;
 }
 
 #no-account-text {
@@ -209,8 +208,8 @@ form {
 
 .carousel-caption {
   position: relative;
-  margin-top: 20px;
   left: 0;
+  margin-top: 20px;
 }
 
 .carousel-indicators {
@@ -220,16 +219,15 @@ form {
 }
 
 .carousel-indicators li {
-  background-color: #777;
-  border-color: #777;
   width: 8px;
   height: 8px
-
+  background-color: #777;
+  border-color: #777;
 }
 
 .carousel-indicators .active {
-  width: 8px;
   height: 8px;
+  width: 8px;
   margin: 1px;
   border: none;
 }
@@ -249,17 +247,17 @@ form {
   }
 
   .signin-container {
-    min-height: 0;
-    margin-right: 21%;
-    width: 37%;
-    height: 400px;
     float: right;
+    min-height: 0;
+    height: 400px;
+    width: 37%;
+    margin-right: 21%;
   }
 
   .signin-outer {
+    min-height: 0;
     padding: 50px 40px;
     border-radius: 0 5px 5px 0;
-    min-height: 0;
   }
 
   .signin-header {
@@ -301,9 +299,9 @@ form {
   }
 
   #signin-forgotten-text {
-    width: 60%;
     justify-content: flex-start;
     top: 34px;
+    width: 60%;
     padding-bottom: 0;
   }
 
@@ -317,9 +315,9 @@ form {
 
   .carousel-container {
     min-height: 0;
-    margin-left: 20%;
-    width: 22%;
     height: 400px;
+    width: 22%;
+    margin-left: 20%;
   }
 
   #carousel-outer {
