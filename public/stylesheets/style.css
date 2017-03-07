@@ -214,6 +214,7 @@ form {
 }
 
 .carousel-indicators {
+  display: none;
   position: absolute;
   bottom: -12px;
 }
@@ -330,5 +331,9 @@ form {
   .carousel-header {
     height: 57px;
     padding-bottom: 0;
+  }
+
+  .carousel-indicators {
+    display: block;
   }
 }
