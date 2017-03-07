@@ -27,7 +27,7 @@ ul {
 }
 
 .header-content {
-  max-width: 80%;
+  max-width: 74%;
 }
 
 header {
@@ -36,22 +36,12 @@ header {
   overflow: hidden;
   background-color: #525252;
   font-family: proxima-nova,sans-serif;
-
-  /*height: 0;*/
-  background-color: #525252;
-  font-family: proxima-nova,sans-serif;
-  position: static;
-  z-index: 1;
-  overflow: hidden;
-  -moz-transition: .2s;
-  -o-transition: .2s;
-  -webkit-transition: .2s;
-  transition: .2s;
 }
 
 header ul {
   float: right;
   margin: 0;
+  padding: 0;
   font-size: 11px;
   font-weight: 700;
 }
@@ -61,14 +51,14 @@ header ul:first-child {
 }
 
 header ul li {
-  margin: 0;
+  margin: 0 10px;
   float: left;
   line-height: 30px;
   height: 30px;
 }
 
 header ul li.icons {
-  margin: 0 0 0 16px;
+  margin: 0 10px 0 16px;
   width: auto;
   position: relative;
 }
@@ -92,33 +82,51 @@ header ul li a {
 }
 
 .signin-container {
-  background-color: #ffffff;
   height: 100vh;
 }
 
 .signin-outer {
-  padding: 50px 40px;
   height: 100%;
+  padding: 70px 20px;
+  background-color: #ffffff;
 }
 
 .signin-header {
   display: flex;
   align-items: center;
+  padding-left: 5%;
+  width: auto;
 }
 
-.signin-header-text {
+#signin-header-text {
   font-size: 250%;
-  font-weight: 300;
-  padding-left: 14px;
+  font-weight: 400;
+  padding-left: 2%;
 }
 
 .signin-body {
-  padding-top: 40px;
+  padding-top: 70px;
 }
 
-.signin-body-text {
+#signin-indie-text {
+  font-size: 110%;
+  font-weight: 500;
+}
+
+#signin-body-text {
+  display: none;
   float: right;
-  opacity: 0.6;
+  opacity: 0.5;
+}
+
+#signin-body-text-alt {
+  display: block;
+  float: right;
+  opacity: 0.5;
+}
+
+form {
+  padding-top: 20px;
 }
 
 .form-group {
@@ -127,35 +135,51 @@ header ul li a {
 }
 
 #email-or-username {
-  margin-top: 20px;
+  margin-top: 25px;
   border-radius: 0;
   padding: 20px 12px;
+  opacity: 0.7;
 }
 
 #password {
   margin-top: 10px;
   border-radius: 0;
   padding: 20px 12px;
+  opacity: 0.7;
 }
 
 #form-submit-button {
+  float: right;
+  width: 100%;
+  height: 44px;
+  margin-top: 20px;
   background-color: #41AF4B;
   color: #FFFFFF;
+
+}
+
+#signin-forgotten-text {
+  display: flex;
+  position: relative;
+  top: 34px;
   width: 100%;
-  margin-top: 20px;
-  float: right;
-  width: 40%;
-  height: 49px;
+  color: #0878d3;
+  font-weight: 500;
+  justify-content: center;
+}
+
+#no-account-text {
+  display: none;
 }
 
 .carousel-container {
-  background-color: #525252;
   height: 100vh;
 }
 
 .carousel-outer {
-  padding: 50px 40px;
   height: 100%;
+  padding: 50px 40px;
+  background-color: #525252;
 }
 
 .carousel-header {
@@ -163,8 +187,13 @@ header ul li a {
 }
 
 .carousel-text {
-  color: #bfbfbf;
-  font-weight: 600;
+  color: #dfdfdf;
+  font-weight: 500;
+  font-size: 120%;
+}
+
+.carousel-text img {
+  vertical-align: inherit;
 }
 
 .carousel-inner {
@@ -178,8 +207,8 @@ header ul li a {
 }
 
 .carousel-indicators {
-  position: relative;
-  bottom: 0;
+  position: absolute;
+  bottom: -12px;
 }
 
 .carousel-indicators li {
@@ -212,10 +241,35 @@ header ul li a {
   }
 
   .signin-container {
-    margin-right: 20%;
-    width: 40%;
+    margin-right: 21%;
+    width: 37%;
     height: 400px;
     float: right;
+  }
+
+  .signin-outer {
+    padding: 50px 40px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .signin-header {
+    padding-left: 0;
+  }
+
+  .signin-body {
+    padding-top: 40px;
+  }
+
+  #signin-body-text {
+    display: block;
+  }
+
+  #signin-body-text-alt {
+    display: none;
+  }
+
+  form {
+    padding-top: 0;
   }
 
   .form-group {
@@ -224,13 +278,29 @@ header ul li a {
   }
 
   #form-submit-button {
-    /*margin-top: 20px;*/
     width: 40%;
+  }
+
+  #signin-forgotten-text {
+    width: 60%;
+    justify-content: flex-start;
+  }
+
+  #no-account-text{
+    display: block;
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+    font-size: 125%;
   }
 
   .carousel-container {
     margin-left: 20%;
-    width: 20%;
+    width: 22%;
     height: 400px;
+  }
+
+  .carousel-outer {
+    border-radius: 5px 0 0 5px;
   }
 }
