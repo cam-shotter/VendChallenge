@@ -179,7 +179,7 @@ form {
   min-height: 100vh;
 }
 
-.carousel-outer {
+#carousel-outer {
   height: 100%;
   min-height: 100vh;
   padding: 10vh 8vw;
@@ -321,7 +321,7 @@ form {
     height: 400px;
   }
 
-  .carousel-outer {
+  #carousel-outer {
     min-height: 0;
     padding: 50px 40px;
     border-radius: 5px 0 0 5px;
