@@ -138,7 +138,7 @@ form {
 }
 
 #email-or-username {
-  margin-top: 2%;
+  margin-top: 2vh;
   border-radius: 0;
   padding: 25px 12px;
   opacity: 0.7;
@@ -187,7 +187,7 @@ form {
 }
 
 .carousel-header {
-  height: 57px;
+  padding-bottom: 6vh;
 }
 
 .carousel-text {
@@ -201,7 +201,10 @@ form {
 }
 
 .carousel-inner {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-caption {
@@ -322,5 +325,10 @@ form {
     min-height: 0;
     padding: 50px 40px;
     border-radius: 5px 0 0 5px;
+  }
+
+  .carousel-header {
+    height: 57px;
+    padding-bottom: 0;
   }
 }
